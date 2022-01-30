@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.712), rgba(128, 128, 128, 0.479));
+    
+    font: normal 17px 'Roboto', sans-serif;
+}
+
+.container { 
+    padding-top: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: gray;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1000px) {
+    .abs {
+        text-align: center;
+        display: block;
+    }
+}
+.abs {
+    margin-bottom: 20px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.abs-text {
+    margin-left: 20px;
+}
+.abs p {
+    color: #1b1d20;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    
+}
+/* Box model */
+
+.bg-yellow {
+    background: rgb(238, 238, 208);
+}
+
+.bg-red {
+    background: rgb(235, 213, 213);
+}
+
+.bg-blue {
+    background: rgb(202, 202, 230);
+}
+
+.bg-green {
+    background: rgb(196, 233, 199);
+}
+
+.card {
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.tekst {
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background:whitesmoke;
+    max-width: 500px;
+    padding: 20px 0px 30px 5px;
+    margin-bottom: 20px;
+}
+
+.rabota {
+    text-decoration: wavy underline;
+}
+
+.card h2 {
+    margin-top: 0%;
+    text-align: center;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    font-weight: bolder;
+    color: rgb(58, 36, 7);
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    
+}
+/* Псевдоселектор nth */
+
+
+/* .table tr:nth-child(1), .table tr:nth-child(2) {
+    color: indianred;
+} */
+
+/* .table td:nth-child(2), .table td:nth-child(3) {
+    color: gray;
+} */
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    width:40%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+    color:black;
+    padding: 15px 0 5px 0;
+}
+.form-group input, 
+.form-group textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px #0000008c solid;
+    background: transparent;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 18px;
+}
+input::placeholder {
+    color:rgba(0, 0, 0, 0.616);
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background:rgba(128, 128, 128, 0.479);
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* Position */
+/* 
+.position {
+    height: 300px;
+    position: relative;
+    border: 5px solid black;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+
+.box {
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    top: 0%;
+    border-radius: 50px;
+    width: 600px;
+    height: 50px;
+    background: lightcoral;
+} */
